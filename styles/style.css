@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font: 400 13px/1.8 "Open Sans", Arial, Helvetica, sans-serif;
+  color: #48555b;
+  background-color: #94dd69;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border-style: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.container {
+  max-width: 1480px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../fonts/BebasNeue-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+header__foto {
+  background-image: url(../img/big-1.png);
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
