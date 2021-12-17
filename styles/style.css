@@ -8,7 +8,7 @@ body {
   margin: 0;
   font: 400 13px/1.8 "Open Sans", Arial, Helvetica, sans-serif;
   color: #48555b;
-  background-color: #94dd69;
+  background-color: #69c6dd;
 }
 
 h1,
@@ -42,9 +42,24 @@ a {
 }
 
 .container {
-  max-width: 1480px;
-  padding: 0 20px;
-  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.container-small {
+  max-width: 940px;
+  padding: 25px 250px;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.anchor {
+  position: relative;
+}
+
+.d-fl {
+  display: flex;
 }
 
 @font-face {
@@ -61,8 +76,47 @@ a {
   font-weight: 400;
 }
 
-header__foto {
-  background-image: url(../img/big-1.png);
-  width: 100%;
+header {
+  min-height: 100vh;
+  overflow: hidden;
+  background: url(../img/big-1.png) 100%/cover no-repeat;
+}
+
+header .header__wrap {
+  padding: 40px 0 70px;
+  text-align: center;
+}
+
+header .header__logo {
+  padding-bottom: 318px;
+}
+
+header .header__lille {
+  font: 400 60px/1.2 "Bebas Neue", Arial, Helvetica, sans-serif;
+  letter-spacing: 5px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+header .header__subtitle {
+  display: block;
+  padding-bottom: 220px;
+  font: 400 16px/1.2 "Open Sans", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+header .header__scroll {
+  font: 400 11px/1.2 "Open Sans", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  letter-spacing: 3.7px;
+}
+
+header .header__scroll:hover {
+  color: #00a4e5;
+}
+
+nav {
+  align-items: center;
+  justify-content: space-between;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,42 @@
 header {
-  &__foto {
-    background-image: url(../img/big-1.png);
-    width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background: url(../img/big-1.png) 100% / cover no-repeat;
+  // display: grid;
+  // place-content: center;
+
+  .header {
+    &__wrap {
+      padding: 40px 0 70px;
+      text-align: center;
+    }
+
+    &__logo {
+      padding-bottom: 318px;
+    }
+
+    &__lille {
+      font: $size1-font;
+      letter-spacing: 5px;
+      color: $white-color;
+      text-transform: uppercase;
+    }
+
+    &__subtitle {
+      display: block;
+      padding-bottom: 220px;
+      font: $size8-font;
+      color: $white-color;
+    }
+
+    &__scroll {
+      font: $size16-font;
+      color: $white-color;
+      letter-spacing: 3.7px;
+    }
+
+    &__scroll:hover {
+      color: $blue-color;
+    }
   }
 }
