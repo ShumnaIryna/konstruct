@@ -8,7 +8,6 @@ body {
   margin: 0;
   font: 400 13px/1.8 "Open Sans", Arial, Helvetica, sans-serif;
   color: #48555b;
-  background-color: #69c6dd;
 }
 
 h1,
@@ -45,9 +44,13 @@ a {
   max-width: 1440px;
 }
 
+.container.underscore {
+  border-bottom: 1px solid #e6e6e6;
+}
+
 .container-small {
-  max-width: 940px;
-  padding: 25px 250px;
+  max-width: 980px;
+  padding: 0 20px;
 }
 
 .pos-rel {
@@ -115,8 +118,30 @@ header .header__scroll:hover {
   color: #00a4e5;
 }
 
-nav {
+.nav {
+  padding: 25px 0;
   align-items: center;
   justify-content: space-between;
+}
+
+.nav__list {
+  align-items: center;
+}
+
+.nav__item {
+  padding: 0 20px;
+}
+
+.nav__link {
+  font: 400 12px/1.2 "Open Sans", Arial, Helvetica, sans-serif;
+  color: #48555b;
+}
+
+.nav__link--active {
+  color: #00a4e5;
+}
+
+.nav__link:hover {
+  color: #00a4e5;
 }
 /*# sourceMappingURL=style.css.map */
