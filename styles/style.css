@@ -51,6 +51,7 @@ a {
 .container-small {
   max-width: 980px;
   padding: 0 20px;
+  margin: 0 auto;
 }
 
 .pos-rel {
@@ -63,6 +64,10 @@ a {
 
 .d-fl {
   display: flex;
+}
+
+.d-grid {
+  display: grid;
 }
 
 @font-face {
@@ -142,6 +147,38 @@ header .header__scroll:hover {
 }
 
 .nav__link:hover {
+  color: #00a4e5;
+}
+
+.story__unification {
+  text-align: center;
+  padding: 55px 0 55px;
+}
+
+.story__title {
+  font: 400 18px/1.2 "Open Sans", Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.story__title--underlining {
+  width: 50px;
+  border-bottom: 2px solid #00a4e5;
+  display: inline-block;
+}
+
+.storyOur {
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.storyOur__title {
+  font: 400 20px/1.2 "Open Sans", Arial, Helvetica, sans-serif;
+  letter-spacing: 0.2px;
+  padding-bottom: 30px;
+}
+
+.storyOur__title--color {
   color: #00a4e5;
 }
 /*# sourceMappingURL=style.css.map */

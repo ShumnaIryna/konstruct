@@ -53,6 +53,7 @@ a {
 .container-small {
   max-width: 980px;
   padding: 0 20px;
+  margin: 0 auto;
 }
 
 .pos-rel {
@@ -65,4 +66,8 @@ a {
 
 .d-fl {
   display: flex;
+}
+
+.d-grid {
+  display: grid;
 }

@@ -1,0 +1,33 @@
+.story {
+  &__unification {
+    text-align: center;
+    padding: 55px 0 55px;
+  }
+
+  &__title {
+    font: $size6-font;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    &--underlining {
+      width: 50px;
+      border-bottom: 2px solid $blue-color;
+      display: inline-block;
+    }
+  }
+}
+
+.storyOur {
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+
+  &__title {
+    font: $size5-font;
+    letter-spacing: 0.2px;
+    padding-bottom: 30px;
+
+    &--color {
+      color: $blue-color;
+    }
+  }
+}
