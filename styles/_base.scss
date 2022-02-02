@@ -60,6 +60,10 @@ a {
   position: relative;
 }
 
+.pos-absolute {
+  position: absolute;
+}
+
 .anchor {
   position: relative;
 }
@@ -70,4 +74,13 @@ a {
 
 .d-grid {
   display: grid;
+}
+
+.btn {
+  font: $size10-font;
+  padding: 10px 30px;
+  color: $white-color;
+  background-color: $blue-background;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }

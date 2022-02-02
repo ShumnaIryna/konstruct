@@ -1,4 +1,6 @@
 .story {
+  padding-bottom: 115px;
+
   &__unification {
     text-align: center;
     padding: 55px 0 55px;
@@ -29,5 +31,51 @@
     &--color {
       color: $blue-color;
     }
+  }
+
+  &__info {
+    letter-spacing: 0.2px;
+  }
+
+  &__right {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+  }
+
+  &__picture {
+    &-img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  // &__picture:hover {
+  //   // box-shadow: 0px 2px 4px red;
+  //   // border-radius: 3px;
+  // }
+
+  &__text {
+    font: $size3-font;
+    color: $white-color;
+    letter-spacing: 0.2px;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+
+    &--1 {
+      max-width: 65px;
+    }
+
+    &--2 {
+      max-width: 110px;
+    }
+
+    &--3 {
+      max-width: 75px;
+    }
+  }
+
+  &__text:hover {
+    color: $blue-color;
   }
 }

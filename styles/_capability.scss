@@ -1,0 +1,26 @@
+.capability {
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 75px;
+
+  &__text {
+    min-width: 200px;
+    padding-right: 10px;
+    font: $size6-font;
+  }
+
+  &__underlining {
+    width: 50px;
+    border-bottom: 2px solid #00a4e5;
+    display: inline-block;
+  }
+
+  &__about {
+    padding-right: 30px;
+    font: $size14-font;
+  }
+
+  &__services {
+    min-width: 150px;
+  }
+}

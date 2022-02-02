@@ -58,6 +58,10 @@ a {
   position: relative;
 }
 
+.pos-absolute {
+  position: absolute;
+}
+
 .anchor {
   position: relative;
 }
@@ -68,6 +72,15 @@ a {
 
 .d-grid {
   display: grid;
+}
+
+.btn {
+  font: 400 13px/1.8 "Open Sans", Arial, Helvetica, sans-serif;
+  padding: 10px 30px;
+  color: #ffffff;
+  background-color: #00a4e5;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 @font-face {
@@ -150,6 +163,10 @@ header .header__scroll:hover {
   color: #00a4e5;
 }
 
+.story {
+  padding-bottom: 115px;
+}
+
 .story__unification {
   text-align: center;
   padding: 55px 0 55px;
@@ -180,5 +197,93 @@ header .header__scroll:hover {
 
 .storyOur__title--color {
   color: #00a4e5;
+}
+
+.storyOur__info {
+  letter-spacing: 0.2px;
+}
+
+.storyOur__right {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+.storyOur__picture-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.storyOur__text {
+  font: 400 24px/1.2 "Open Sans", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.2px;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.storyOur__text--1 {
+  max-width: 65px;
+}
+
+.storyOur__text--2 {
+  max-width: 110px;
+}
+
+.storyOur__text--3 {
+  max-width: 75px;
+}
+
+.storyOur__text:hover {
+  color: #00a4e5;
+}
+
+.capability {
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 75px;
+}
+
+.capability__text {
+  min-width: 200px;
+  padding-right: 10px;
+  font: 400 18px/1.2 "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.capability__underlining {
+  width: 50px;
+  border-bottom: 2px solid #00a4e5;
+  display: inline-block;
+}
+
+.capability__about {
+  padding-right: 30px;
+  font: 400 11px/1.7 "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.capability__services {
+  min-width: 150px;
+}
+
+.services {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  padding-bottom: 235px;
+}
+
+.services__box {
+  padding: 35px 20px;
+  border: 1px solid #e6e6e6;
+}
+
+.services__box__img {
+  max-width: 100%;
+  max-height: 100%;
+  padding-bottom: 25px;
+}
+
+.services__box__title {
+  font: 400 16px/1.5 "Open Sans", Arial, Helvetica, sans-serif;
+  padding-bottom: 15px;
 }
 /*# sourceMappingURL=style.css.map */
