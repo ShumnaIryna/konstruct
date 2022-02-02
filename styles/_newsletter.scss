@@ -1,0 +1,25 @@
+form {
+  background-color: $dark-black-background;
+}
+.newsletter {
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+
+  &__title {
+    font: $size4-font;
+    color: $white-color;
+    padding-right: 70px;
+    letter-spacing: 0.8px;
+  }
+
+  &__email {
+    padding: 12px 0 12px 16px;
+    font: $size9-font;
+    color: $main-color;
+  }
+
+  &__signup {
+    padding: 10px 48px;
+  }
+}
