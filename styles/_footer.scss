@@ -1,0 +1,106 @@
+form {
+  background-color: $dark-black-background;
+}
+.newsletter {
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+
+  &__title {
+    font: $size4-font;
+    color: $white-color;
+    padding-right: 70px;
+    letter-spacing: 0.8px;
+  }
+
+  &__email {
+    padding: 12px 0 12px 16px;
+    font: $size9-font;
+    color: $main-color;
+  }
+
+  &__signup {
+    padding: 10px 48px;
+  }
+}
+
+footer {
+  .footer {
+    &__about {
+      width: 25%;
+      margin-right: 70px;
+
+      p {
+        padding-bottom: 20px;
+      }
+
+      img {
+        padding-bottom: 15px;
+      }
+
+      span {
+        font: $size14-font;
+        letter-spacing: 0.9px;
+        color: $white-color;
+      }
+    }
+
+    &__nav {
+      width: 50%;
+
+      p {
+        padding-bottom: 15px;
+      }
+
+      ul {
+        padding-right: 35px;
+      }
+      ul li a {
+        font: $size13-font;
+        color: $white-color;
+        letter-spacing: 0.85px;
+      }
+    }
+
+    &__contact {
+      width: 15%;
+
+      p {
+        padding-bottom: 15px;
+      }
+    }
+
+    &__social {
+      width: 10%;
+    }
+
+    // copyrights
+
+    &__copyrights {
+      background-color: $dark-black-background;
+
+      &__info {
+        padding: 25px 0;
+        font: $size16-font;
+        text-align: center;
+        color: $white-color;
+      }
+    }
+  }
+}
+
+footer.footer {
+  padding: 40px 0;
+  background-color: $dark-blue-background;
+}
+
+// .footer__copyrights {
+//   background-color: $dark-black-background;
+
+//   &__info {
+//     padding: 25px 0;
+//     font: $size16-font;
+//     text-align: center;
+//     color: $white-color;
+//   }
+// }

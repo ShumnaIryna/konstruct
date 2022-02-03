@@ -82,6 +82,15 @@ a {
   text-transform: uppercase;
 }
 
+.btn:hover {
+  color: #48555b;
+}
+
+.footer-title {
+  font: 400 11px/1.2 "Open Sans", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
 @font-face {
   font-family: "Bebas Neue";
   src: url("../fonts/BebasNeue-Regular.woff") format("woff");
@@ -312,5 +321,70 @@ form {
 
 .newsletter__signup {
   padding: 10px 48px;
+}
+
+footer .footer__about {
+  width: 25%;
+  margin-right: 70px;
+}
+
+footer .footer__about p {
+  padding-bottom: 20px;
+}
+
+footer .footer__about img {
+  padding-bottom: 15px;
+}
+
+footer .footer__about span {
+  font: 400 11px/1.7 "Open Sans", Arial, Helvetica, sans-serif;
+  letter-spacing: 0.9px;
+  color: #ffffff;
+}
+
+footer .footer__nav {
+  width: 50%;
+}
+
+footer .footer__nav p {
+  padding-bottom: 15px;
+}
+
+footer .footer__nav ul {
+  padding-right: 35px;
+}
+
+footer .footer__nav ul li a {
+  font: 400 11px/2.3 "Open Sans", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.85px;
+}
+
+footer .footer__contact {
+  width: 15%;
+}
+
+footer .footer__contact p {
+  padding-bottom: 15px;
+}
+
+footer .footer__social {
+  width: 10%;
+}
+
+footer .footer__copyrights {
+  background-color: #171819;
+}
+
+footer .footer__copyrights__info {
+  padding: 25px 0;
+  font: 400 11px/1.2 "Open Sans", Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+footer.footer {
+  padding: 40px 0;
+  background-color: #141a20;
 }
 /*# sourceMappingURL=style.css.map */

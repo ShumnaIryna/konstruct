@@ -83,3 +83,12 @@ a {
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
+
+.btn:hover {
+  color: $main-color;
+}
+
+.footer-title {
+  font: $size16-font;
+  color: $white-color;
+}
