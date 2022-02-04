@@ -368,8 +368,34 @@ footer .footer__contact p {
   padding-bottom: 15px;
 }
 
+footer .footer__contact__link {
+  padding-bottom: 20px;
+}
+
+footer .footer__contact__item {
+  font: 400 11px/1.5 "Open Sans", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
 footer .footer__social {
   width: 10%;
+  justify-content: center;
+  margin: 0 25px 0 45px;
+}
+
+footer .footer__social__item {
+  padding: 30px 12px;
+}
+
+footer .footer__social__item a {
+  width: 12px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #171819;
+  color: #ffffff;
+  border-radius: 10px;
 }
 
 footer .footer__copyrights {

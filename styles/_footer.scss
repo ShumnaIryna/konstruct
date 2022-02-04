@@ -68,10 +68,36 @@ footer {
       p {
         padding-bottom: 15px;
       }
+
+      &__link {
+        padding-bottom: 20px;
+      }
+
+      &__item {
+        font: $size15-font;
+        color: $white-color;
+      }
     }
 
     &__social {
       width: 10%;
+      justify-content: center;
+      margin: 0 25px 0 45px;
+
+      &__item {
+        padding: 30px 12px;
+
+        a {
+          width: 12px;
+          height: 12px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: $dark-black-background;
+          color: $white-background;
+          border-radius: 10px;
+        }
+      }
     }
 
     // copyrights
