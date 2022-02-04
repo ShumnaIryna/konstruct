@@ -44,7 +44,7 @@ a {
   max-width: 1440px;
 }
 
-.container.underscore {
+.underscore {
   border-bottom: 1px solid #e6e6e6;
 }
 
@@ -296,7 +296,7 @@ header .header__scroll:hover {
   padding-bottom: 15px;
 }
 
-form {
+.footer__newsletter {
   background-color: #171819;
 }
 

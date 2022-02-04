@@ -1,5 +1,7 @@
-form {
-  background-color: $dark-black-background;
+.footer {
+  &__newsletter {
+    background-color: $dark-black-background;
+  }
 }
 .newsletter {
   align-items: center;
