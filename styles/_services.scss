@@ -1,7 +1,7 @@
 .services {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 25px;
-  padding-bottom: 235px;
+  padding-bottom: 115px;
 
   &__box {
     padding: 35px 20px;
@@ -17,5 +17,9 @@
       font: $size7-font;
       padding-bottom: 15px;
     }
+  }
+
+  &__box:hover {
+    box-shadow: 0px 2px 4px $border-gray-color, 0px 2px 4px $border-blue-color;
   }
 }

@@ -57,10 +57,15 @@ footer {
       ul {
         padding-right: 35px;
       }
+
       ul li a {
         font: $size13-font;
         color: $white-color;
         letter-spacing: 0.85px;
+      }
+
+      ul li a:hover {
+        color: $blue-color;
       }
     }
 
@@ -78,6 +83,10 @@ footer {
       &__item {
         font: $size15-font;
         color: $white-color;
+      }
+
+      &__item:hover {
+        color: $blue-color;
       }
     }
 
@@ -99,6 +108,10 @@ footer {
           color: $white-background;
           border-radius: 10px;
         }
+      }
+
+      &__item a:hover {
+        color: $blue-color;
       }
     }
 

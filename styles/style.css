@@ -64,6 +64,7 @@ a {
 
 .anchor {
   position: relative;
+  bottom: 38px;
 }
 
 .d-fl {
@@ -197,6 +198,10 @@ header .header__scroll:hover {
   gap: 80px;
 }
 
+.storyOur__box:hover {
+  box-shadow: 0px 2px 4px #e6e6e6, 0px 2px 4px #00a4e5;
+}
+
 .storyOur__title {
   font: 400 20px/1.2 "Open Sans", Arial, Helvetica, sans-serif;
   letter-spacing: 0.2px;
@@ -216,9 +221,9 @@ header .header__scroll:hover {
   gap: 15px;
 }
 
-.storyOur__picture-img {
-  max-width: 100%;
-  max-height: 100%;
+.storyOur__picture__img {
+  max-width: 220px;
+  object-fit: cover;
 }
 
 .storyOur__text {
@@ -277,7 +282,7 @@ header .header__scroll:hover {
 .services {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 25px;
-  padding-bottom: 235px;
+  padding-bottom: 115px;
 }
 
 .services__box {
@@ -294,6 +299,30 @@ header .header__scroll:hover {
 .services__box__title {
   font: 400 16px/1.5 "Open Sans", Arial, Helvetica, sans-serif;
   padding-bottom: 15px;
+}
+
+.services__box:hover {
+  box-shadow: 0px 2px 4px #e6e6e6, 0px 2px 4px #00a4e5;
+}
+
+main {
+  background: url(../img/big-2.png) 100%/cover no-repeat;
+}
+
+main .main__title {
+  font: 400 30px/1.2 "Open Sans", Arial, Helvetica, sans-serif;
+  letter-spacing: 0.15px;
+  padding: 120px 0 45px;
+  text-align: center;
+}
+
+main .main__connection {
+  text-align: center;
+  padding-bottom: 230px;
+}
+
+main .main__btn {
+  padding: 10px 25px;
 }
 
 .footer__newsletter {
@@ -360,6 +389,10 @@ footer .footer__nav ul li a {
   letter-spacing: 0.85px;
 }
 
+footer .footer__nav ul li a:hover {
+  color: #00a4e5;
+}
+
 footer .footer__contact {
   width: 15%;
 }
@@ -375,6 +408,10 @@ footer .footer__contact__link {
 footer .footer__contact__item {
   font: 400 11px/1.5 "Open Sans", Arial, Helvetica, sans-serif;
   color: #ffffff;
+}
+
+footer .footer__contact__item:hover {
+  color: #00a4e5;
 }
 
 footer .footer__social {
@@ -396,6 +433,10 @@ footer .footer__social__item a {
   background-color: #171819;
   color: #ffffff;
   border-radius: 10px;
+}
+
+footer .footer__social__item a:hover {
+  color: #00a4e5;
 }
 
 footer .footer__copyrights {

@@ -23,6 +23,10 @@
   grid-template-columns: 1fr 1fr;
   gap: 80px;
 
+  &__box:hover {
+    box-shadow: 0px 2px 4px $border-gray-color, 0px 2px 4px $border-blue-color;
+  }
+
   &__title {
     font: $size5-font;
     letter-spacing: 0.2px;
@@ -43,16 +47,11 @@
   }
 
   &__picture {
-    &-img {
-      max-width: 100%;
-      max-height: 100%;
+    &__img {
+      max-width: 220px;
+      object-fit: cover;
     }
   }
-
-  // &__picture:hover {
-  //   // box-shadow: 0px 2px 4px red;
-  //   // border-radius: 3px;
-  // }
 
   &__text {
     font: $size3-font;

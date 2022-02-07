@@ -1,0 +1,21 @@
+main {
+  background: url(../img/big-2.png) 100% / cover no-repeat;
+
+  .main {
+    &__title {
+      font: $size2-font;
+      letter-spacing: 0.15px;
+      padding: 120px 0 45px;
+      text-align: center;
+    }
+
+    &__connection {
+      text-align: center;
+      padding-bottom: 230px;
+    }
+
+    &__btn {
+      padding: 10px 25px;
+    }
+  }
+}
