@@ -135,13 +135,34 @@ footer.footer {
   background-color: $dark-blue-background;
 }
 
-// .footer__copyrights {
-//   background-color: $dark-black-background;
+@media (max-width: 767px) {
+  footer {
+    .footer {
+      &__copyrights {
+        &__info {
+          font: $size8-font;
+        }
+      }
+    }
 
-//   &__info {
-//     padding: 25px 0;
-//     font: $size16-font;
-//     text-align: center;
-//     color: $white-color;
-//   }
-// }
+    .newsletter {
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 30%;
+
+      &__title {
+        padding-bottom: 20px;
+        font: $size3-font;
+      }
+
+      &__signup,
+      &__email {
+        min-width: 235px;
+        font: $size6-font;
+      }
+    }
+  }
+}
+
+@media (max-width: 520px) {
+}

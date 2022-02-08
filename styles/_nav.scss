@@ -41,3 +41,36 @@
     color: $blue-color;
   }
 }
+
+@media (max-width: 767px) {
+  .nav {
+    a {
+      padding: 10px 20px;
+    }
+
+    &__list {
+      flex-wrap: wrap;
+    }
+
+    &__item {
+      padding: 10px 10px;
+    }
+
+    &__link {
+      font: $size7-font;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .nav {
+    &__list {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    &__link {
+      font: $size4-font;
+    }
+  }
+}

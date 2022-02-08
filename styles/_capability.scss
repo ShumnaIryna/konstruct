@@ -24,8 +24,19 @@
     min-width: 150px;
     padding: 10px 30px;
   }
+}
 
-  // &__services:hover {
-  //   color: $main-color;
-  // }
+@media (max-width: 767px) {
+  .capability {
+    flex-direction: column;
+    padding-bottom: 60px;
+
+    &__about {
+      padding: 20px;
+      font: $size7-font;
+    }
+  }
+}
+
+@media (max-width: 520px) {
 }

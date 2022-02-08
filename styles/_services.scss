@@ -23,3 +23,22 @@
     box-shadow: 0px 2px 4px $border-gray-color, 0px 2px 4px $border-blue-color;
   }
 }
+
+@media (max-width: 767px) {
+  .services {
+    grid-template-columns: 1fr;
+    padding-bottom: 60px;
+
+    &__box {
+      max-width: 500px;
+      justify-self: center;
+
+      &__about {
+        font: $size7-font;
+      }
+    }
+  }
+}
+
+@media (max-width: 520px) {
+}

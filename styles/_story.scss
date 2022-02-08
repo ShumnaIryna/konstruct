@@ -78,3 +78,41 @@
     color: $blue-color;
   }
 }
+
+@media (max-width: 767px) {
+  .story {
+    padding-bottom: 60px;
+  }
+
+  .storyOur {
+    grid-template-columns: 1fr;
+    gap: 40px;
+
+    &__right {
+      justify-self: stretch;
+    }
+
+    &__title {
+      font: $size4-font;
+    }
+
+    &__info {
+      font: $size6-font;
+    }
+  }
+}
+
+@media (max-width: 520px) {
+  .storyOur {
+    &__right {
+      grid-template-columns: 1fr;
+      justify-self: center;
+    }
+
+    &__picture {
+      &__img {
+        max-width: 100%;
+      }
+    }
+  }
+}
