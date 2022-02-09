@@ -92,6 +92,12 @@ a {
   color: #ffffff;
 }
 
+@media (max-width: 550px) {
+  .anchor {
+    bottom: 120px;
+  }
+}
+
 @font-face {
   font-family: "Bebas Neue";
   src: url("../fonts/BebasNeue-Regular.woff") format("woff");
