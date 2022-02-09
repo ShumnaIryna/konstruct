@@ -538,6 +538,34 @@ footer.footer {
   footer .footer__copyrights__info {
     font: 400 16px/1.2 "Open Sans", Arial, Helvetica, sans-serif;
   }
+  footer .footer .container .container-small {
+    flex-wrap: wrap;
+  }
+  footer .footer .container .container-small .footer__about,
+  footer .footer .container .container-small .footer__nav,
+  footer .footer .container .container-small .footer__contact,
+  footer .footer .container .container-small .footer__social {
+    width: 100%;
+  }
+  footer .footer-title {
+    padding-top: 30px;
+    font: 400 16px/1.5 "Open Sans", Arial, Helvetica, sans-serif;
+  }
+  footer .footer__about span {
+    font: 400 16px/1.5 "Open Sans", Arial, Helvetica, sans-serif;
+  }
+  footer .footer__nav ul li a {
+    font: 400 16px/1.2 "Open Sans", Arial, Helvetica, sans-serif;
+  }
+  footer .footer__nav ul li {
+    padding: 0 0 10px 0;
+  }
+  footer .footer__contact__item {
+    font: 400 16px/1.2 "Open Sans", Arial, Helvetica, sans-serif;
+  }
+  footer .footer__social__item {
+    font: 400 24px/1.2 "Open Sans", Arial, Helvetica, sans-serif;
+  }
   footer .newsletter {
     flex-direction: column;
     align-items: flex-start;

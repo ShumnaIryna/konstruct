@@ -143,6 +143,54 @@ footer.footer {
           font: $size8-font;
         }
       }
+
+      .container {
+        .container-small {
+          flex-wrap: wrap;
+
+          .footer__about,
+          .footer__nav,
+          .footer__contact,
+          .footer__social {
+            width: 100%;
+          }
+        }
+      }
+
+      &-title {
+        padding-top: 30px;
+        font: $size7-font;
+      }
+
+      &__about {
+        span {
+          font: $size7-font;
+        }
+      }
+
+      &__nav {
+        ul li a {
+          font: $size8-font;
+        }
+      }
+
+      &__nav {
+        ul li {
+          padding: 0 0 10px 0;
+        }
+      }
+
+      &__contact {
+        &__item {
+          font: $size8-font;
+        }
+      }
+
+      &__social {
+        &__item {
+          font: $size3-font;
+        }
+      }
     }
 
     .newsletter {
@@ -162,7 +210,4 @@ footer.footer {
       }
     }
   }
-}
-
-@media (max-width: 520px) {
 }
