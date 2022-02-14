@@ -187,6 +187,8 @@ footer.footer {
       }
 
       &__social {
+        justify-content: space-around;
+
         &__item {
           font: $size3-font;
         }

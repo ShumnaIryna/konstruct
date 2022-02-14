@@ -570,6 +570,9 @@ footer.footer {
   footer .footer__contact__item {
     font: 400 16px/1.2 "Open Sans", Arial, Helvetica, sans-serif;
   }
+  footer .footer__social {
+    justify-content: space-around;
+  }
   footer .footer__social__item {
     font: 400 24px/1.2 "Open Sans", Arial, Helvetica, sans-serif;
   }
