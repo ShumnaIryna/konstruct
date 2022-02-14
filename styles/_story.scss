@@ -24,7 +24,8 @@
   gap: 80px;
 
   &__box:hover {
-    box-shadow: 0px 2px 4px $border-gray-color, 0px 2px 4px $border-blue-color;
+    transform: scale(1.1);
+    transition: all 1s ease-out;
   }
 
   &__title {
