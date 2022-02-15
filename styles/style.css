@@ -590,4 +590,19 @@ footer.footer {
     font: 400 18px/1.2 "Open Sans", Arial, Helvetica, sans-serif;
   }
 }
+
+@media (max-width: 640px) {
+  footer .newsletter {
+    padding: 10px;
+  }
+  footer .newsletter__email, footer .newsletter__signup {
+    max-width: 100px;
+  }
+}
+
+@media (max-width: 6320px) {
+  footer .footer__nav nav {
+    display: block;
+  }
+}
 /*# sourceMappingURL=style.css.map */

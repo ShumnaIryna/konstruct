@@ -213,3 +213,26 @@ footer.footer {
     }
   }
 }
+
+@media (max-width: 640px) {
+  footer {
+    .newsletter {
+      padding: 10px;
+
+      &__email,
+      &__signup {
+        max-width: 100px;
+      }
+    }
+  }
+}
+
+@media (max-width: 6320px) {
+  footer {
+    .footer__nav {
+      nav {
+        display: block;
+      }
+    }
+  }
+}
